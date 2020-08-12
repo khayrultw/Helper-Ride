@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Helper</string>
+    <string name="name">Name</string>
+    <string name="phone">Cell Phone Number</string>
+    <string name="address_text">Delivery Address\n\nPlease be specific</string>
+    <string name="order">Order your needed item like this:\n\n1. Tomato sauce(Brand name) - 1 bottle\n2. Tab. Tiginor(40mg) - 30 piece 3. Murgi sonali-6pcs(700-800 gm per piece)\n"</string>
+    <string name="invalid_time">Our service time 9.00 AM - 11.59 PM sorry for the inconvenience.\n:(</string>
+    <string name="address">House 171,\nHolding No: 55/1,\nRoad #4,\nPadma Residential Area,\nPost: Padma Abasik-6207\nThana: Chandrima\nRajshahi</string>
+</resources>

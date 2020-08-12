@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.khayrul.helper">
+
+    <application
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".HelperCookOrderActivity"></activity>
+        <activity android:name=".Package4Activity" />
+        <activity android:name=".Package3Activity" />
+        <activity android:name=".Package2Activity" />
+        <activity android:name=".Package1Activity" />
+        <activity android:name=".LunchDinnerActivity" />
+        <activity android:name=".HelperCookActivity" />
+        <activity android:name=".HomeDeliveryActivity" />
+        <activity android:name=".CateringActivity" />
+        <activity android:name=".TakeRideActivity" />
+        <activity android:name=".FreeServiceActivity" />
+        <activity android:name=".ContactUsActivity" />
+        <activity android:name=".AboutUsActivity" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".Home2Activity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

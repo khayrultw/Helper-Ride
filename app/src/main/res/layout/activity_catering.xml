@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CateringActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/homepage">
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_weight=".16"
+        android:layout_gravity="start"
+        android:background="@drawable/restaurants"
+        android:onClick="unAvailable"
+        />
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_weight=".16"
+        android:layout_gravity="end"
+        android:background="@drawable/featured_foods"
+        android:onClick="unAvailable"
+       />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.08"/>
+
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_weight=".16"
+        android:layout_gravity="start"
+        android:background="@drawable/helper_cook"
+        android:onClick="goToHelperCook"/>
+
+</LinearLayout>

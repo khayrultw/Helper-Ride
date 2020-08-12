@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LunchDinnerActivity"
+    android:orientation="vertical"
+    android:weightSum="1"
+    android:background="@drawable/homepage">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="0.23"/>
+
+    <ImageButton
+        android:id="@+id/package1"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_gravity="start"
+        android:background="@drawable/package1"
+        android:onClick="gotoPackage1"/>
+
+    <ImageButton
+        android:id="@+id/package2"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_gravity="end"
+        android:background="@drawable/package2"
+        android:onClick="gotoPackage2"/>
+
+    <ImageButton
+        android:id="@+id/package3"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_gravity="start"
+        android:background="@drawable/package3"
+        android:onClick="gotoPackage3"/>
+
+    <ImageButton
+        android:id="@+id/package4"
+        android:layout_width="280dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.14"
+        android:layout_gravity="end"
+        android:background="@drawable/package4"
+        android:onClick="gotoPackage4"/>
+
+</LinearLayout>
