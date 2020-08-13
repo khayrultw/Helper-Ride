@@ -37,7 +37,10 @@ public class HelperCookOrderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_helper_cook_order);
 
         setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
-        //Toast.makeText(this, pack, Toast.LENGTH_LONG).show();
+
+        Bundle bundle = getIntent().getExtras();
+        pack = bundle.getString("pack");
+        //Toast.makeText(this, "hello" + pack, Toast.LENGTH_LONG).show();
 
         getWindow().setBackgroundDrawableResource(R.drawable.homepage);
 
@@ -98,7 +101,7 @@ public class HelperCookOrderActivity extends AppCompatActivity {
 
         else
         {
-            Toast.makeText(this,"Something went wrong.", Toast.LENGTH_LONG).show();
+            Toast.makeText(this,"Something went wrong...", Toast.LENGTH_LONG).show();
             return;
         }
 
