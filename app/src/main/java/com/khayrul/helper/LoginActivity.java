@@ -94,6 +94,7 @@ public class LoginActivity extends AppCompatActivity {
                 if(task.isSuccessful())
                 {
                     startActivity(new Intent(LoginActivity.this, Home2Activity.class));
+                    LoginActivity.this.finish();
                 }else{
                     Toast.makeText(LoginActivity.this, "Something went wrong.", Toast.LENGTH_LONG).show();
                 }
@@ -106,6 +107,7 @@ public class LoginActivity extends AppCompatActivity {
         FirebaseUser currentUser = myAuth.getCurrentUser();
         if(currentUser != null) {
             startActivity(new Intent(LoginActivity.this, Home2Activity.class));
+            LoginActivity.this.finish();
         }
         super.onStart();
     }
