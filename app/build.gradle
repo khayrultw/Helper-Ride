@@ -5,10 +5,10 @@ android {
     compileSdkVersion 29
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.khayrul.helper"
+        applicationId "com.cerebro.helper"
         minSdkVersion 19
         targetSdkVersion 29
-        versionCode 1
+        versionCode 6
         versionName "1.9"
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }

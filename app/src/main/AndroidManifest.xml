@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.khayrul.helper">
+    package="com.cerebro.helper">
 
     <application
         android:allowBackup="true"
@@ -12,22 +12,22 @@
         android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.NoActionBar">
-        <activity android:name=".HelperCookOrderActivity"></activity>
-        <activity android:name=".Package4Activity" />
-        <activity android:name=".Package3Activity" />
-        <activity android:name=".Package2Activity" />
-        <activity android:name=".Package1Activity" />
-        <activity android:name=".LunchDinnerActivity" />
-        <activity android:name=".HelperCookActivity" />
-        <activity android:name=".HomeDeliveryActivity" />
-        <activity android:name=".CateringActivity" />
-        <activity android:name=".TakeRideActivity" />
-        <activity android:name=".FreeServiceActivity" />
-        <activity android:name=".ContactUsActivity" />
-        <activity android:name=".AboutUsActivity" />
-        <activity android:name=".LoginActivity" />
-        <activity android:name=".Home2Activity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="com.cerebro.helper.HelperCookOrderActivity"></activity>
+        <activity android:name="com.cerebro.helper.Package4Activity" />
+        <activity android:name="com.cerebro.helper.Package3Activity" />
+        <activity android:name="com.cerebro.helper.Package2Activity" />
+        <activity android:name="com.cerebro.helper.Package1Activity" />
+        <activity android:name="com.cerebro.helper.LunchDinnerActivity" />
+        <activity android:name="com.cerebro.helper.HelperCookActivity" />
+        <activity android:name="com.cerebro.helper.HomeDeliveryActivity" />
+        <activity android:name="com.cerebro.helper.CateringActivity" />
+        <activity android:name="com.cerebro.helper.TakeRideActivity" />
+        <activity android:name="com.cerebro.helper.FreeServiceActivity" />
+        <activity android:name="com.cerebro.helper.ContactUsActivity" />
+        <activity android:name="com.cerebro.helper.AboutUsActivity" />
+        <activity android:name="com.cerebro.helper.LoginActivity" />
+        <activity android:name="com.cerebro.helper.Home2Activity" />
+        <activity android:name="com.cerebro.helper.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

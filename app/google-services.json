@@ -8,6 +8,43 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:720042731694:android:0c02e7c5cf29d98745253f",
+        "android_client_info": {
+          "package_name": "com.cerebro.helper"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720042731694-arko9f2k0qhisodkvtm0mmjjajlc3s5i.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.cerebro.helper",
+            "certificate_hash": "b470d8f120785cd4e493e82a7517e2ec8338a4b5"
+          }
+        },
+        {
+          "client_id": "720042731694-tnsodo0mutg501gv4sia453j07aiqvo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARgaf37MHztWYcNnUkhAPXRJ4fnpBsjdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720042731694-tnsodo0mutg501gv4sia453j07aiqvo5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:720042731694:android:a547d2a4e92e40a945253f",
         "android_client_info": {
           "package_name": "com.khayrul.helper"
@@ -15,10 +52,63 @@
       },
       "oauth_client": [
         {
+          "client_id": "720042731694-ha25ft7ib0m57hdhqiup4sguhb4tsnjd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khayrul.helper",
+            "certificate_hash": "b470d8f120785cd4e493e82a7517e2ec8338a4b5"
+          }
+        },
+        {
+          "client_id": "720042731694-aipkmekbm1csr2akuoq3ikkrgt51hm9g.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khayrul.helper",
+            "certificate_hash": "3b18f84c381b9eacf53f4d81b8efd7e2987aeb02"
+          }
+        },
+        {
           "client_id": "720042731694-ipg6j54t43rfvgha2mo1542u25qlj3uk.apps.googleusercontent.com",
           "client_type": 1,
           "android_info": {
             "package_name": "com.khayrul.helper",
+            "certificate_hash": "b0bef9b608211a93d1805b56aedff6e2fccd2a20"
+          }
+        },
+        {
+          "client_id": "720042731694-tnsodo0mutg501gv4sia453j07aiqvo5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyARgaf37MHztWYcNnUkhAPXRJ4fnpBsjdY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720042731694-tnsodo0mutg501gv4sia453j07aiqvo5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720042731694:android:4724babb5f22bc4445253f",
+        "android_client_info": {
+          "package_name": "com.khayrul.helperadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720042731694-7j6a3efk8hdt3ulbqf7m1tm8ntt3e56f.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.khayrul.helperadmin",
             "certificate_hash": "b0bef9b608211a93d1805b56aedff6e2fccd2a20"
           }
         },
